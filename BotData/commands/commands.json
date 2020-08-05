@@ -1,7 +1,8 @@
 {
   "command": [
     {
-      "name": "help",
+      "name": "commands",
+      "perms": [],
       "actions": [
         {
           "name": "help menu",
@@ -9,24 +10,24 @@
           "type": "Send Embed",
           "fields": [
             {
-              "name": "!help",
+              "name": ".commands",
               "value": "Shows this menu",
               "inline": "true"
             },
             {
-              "name": "!info",
-              "value": "Shows some info",
+              "name": ".discounts ",
+              "value": "Discounts to the the sales group",
               "inline": "true"
             }
           ],
           "channelname": "${dbsVars.CommandChannel.id}",
-          "color": "1FFF57",
-          "title": "Help Menu",
+          "color": "961DFF",
+          "title": "Commands ",
           "url": "",
-          "authorname": "Bot Name Here",
+          "authorname": "DiscAdmin",
           "authorimageurl": "",
           "authorlink": "",
-          "description": "This is the embed description, replace this with some info about your bot!",
+          "description": "",
           "thumbnail": "",
           "image": "",
           "footer": "",
@@ -62,6 +63,30 @@
           "messagetext": "TST",
           "savetovariable": "",
           "savetovariabletype": "global"
+        }
+      ]
+    },
+    {
+      "name": "discounts",
+      "actions": [
+        {
+          "name": "discountsres",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandAuthor.user.dmChannel}",
+          "color": "6F1BFF",
+          "title": "DiscAdmin discounts ",
+          "url": "",
+          "authorname": "DiscAdmin",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "No available discounts at this moment ",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
         }
       ]
     }
