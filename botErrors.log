@@ -1,0 +1,3 @@
+{"level":"error","message":"Loading mods: Error: ENOENT: no such file or directory, scandir '/Users/ellisprocopis/Desktop/DiscAdmin - Sales group/BotFiles/mods'","service":"user-service"}
+{"level":"error","message":"Loading mods: Error: ENOENT: no such file or directory, scandir '/Users/ellisprocopis/Desktop/DiscAdmin - Sales group/BotFiles/mods'","service":"user-service"}
+{"level":"error","message":"Call next action: [Test] TypeError: Cannot read property 'type' of undefined\n    at Object.DBS.callNextAction (/Users/ellisprocopis/Desktop/DiscAdmin - Sales group/BotFiles/bot.js:118:20)\n    at Object.module.exports.Message_Handle (/Users/ellisprocopis/Desktop/DiscAdmin - Sales group/BotFiles/Handlers/Message.js:35:9)","service":"user-service"}

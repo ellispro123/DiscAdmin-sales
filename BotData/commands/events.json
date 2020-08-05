@@ -1,0 +1,52 @@
+{
+  "command": [
+    {
+      "name": "User Joins Server",
+      "perms": [],
+      "actions": [
+        {
+          "name": "Join",
+          "category": "Message",
+          "type": "Send Direct Message",
+          "user": "${tempVars.newuser.id}",
+          "messagetext": "Welcome to ${dbsVars.guild.name} use promo code open2020 for 10% off on all active sales! ",
+          "savetovariable": "",
+          "savetovariabletype": "server"
+        }
+      ],
+      "var": {
+        "user": "newuser"
+      }
+    },
+    {
+      "name": "Any Message",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "msguser"
+      }
+    },
+    {
+      "name": "User Kicked",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "kickuser"
+      }
+    },
+    {
+      "name": "User Banned",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "banuser"
+      }
+    },
+    {
+      "name": "Bot Initialization",
+      "perms": [],
+      "actions": [],
+      "var": {}
+    }
+  ]
+}
